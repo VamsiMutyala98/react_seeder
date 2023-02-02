@@ -22,7 +22,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "checkTs": "tsc --noEmit"
   },
   "eslintConfig": {
     "extends": [
