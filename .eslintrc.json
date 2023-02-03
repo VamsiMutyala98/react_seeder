@@ -32,11 +32,14 @@
       }
     ],
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "endOfLine": "auto"
       }
     ],
-    "react/jsx-uses-react": ["off"]
+    "react/jsx-uses-react": ["off"],
+    "react/function-component-definition": ["off"],
+    "import/prefer-default-export": ["off"],
+    "react/jsx-props-no-spreading": ["off"]
   }
 }
