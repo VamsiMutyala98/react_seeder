@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Prettier
+| S.No | key | type | Description |
+| --- | --- | --- |
+| 1 | printWidth | string | Specify the line length that the printer will wrap on.  |
+| 2 | tabWidth | string | Specify the number of spaces per indentation-level. |
+| 3 | semi | boolean | true:Print semicolons at the ends of statements. false: Only add semicolons at the beginning of lines that may introduce ASI failures. |
+| 4 | singleQuote | Use single quotes instead of double quotes. |
+| 5 | trailingComma | Default value changed from none to es5 in v2.0.0 |
