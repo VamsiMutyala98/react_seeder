@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Prettier
 
 | S.No | key | type | Description |
-| --- | --- | --- |
+| :--: | :---: | :---: | :---: |
 | 1 | printWidth | string | Specify the line length that the printer will wrap on.  |
 | 2 | tabWidth | string | Specify the number of spaces per indentation-level. |
 | 3 | semi | boolean | true:Print semicolons at the ends of statements. false: Only add semicolons at the beginning of lines that may introduce ASI failures. |
