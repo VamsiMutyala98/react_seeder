@@ -69,13 +69,13 @@ yarn build
 
 Linting preferences for Javascript
 
-## Unit Testing
+### Unit Testing
 
 ```shell
 npm run test
 ```
 
-## Linting
+### Linting
 
 ```shell
 npm lint
