@@ -44,3 +44,42 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Prettier
+
+| S.No | key | type | Description |
+| :--: | :--- | :--- | :--- |
+| 1 | printWidth | string | Specify the line length that the printer will wrap on.  |
+| 2 | tabWidth | string | Specify the number of spaces per indentation-level. |
+| 3 | semi | boolean | **true**: Print semicolons at the ends of statements. <br>**false:** Only add semicolons at the beginning of lines that may introduce ASI failures. |
+| 4 | singleQuote | boolean | Use single quotes instead of double quotes. |
+| 5 | trailingComma | string | Default value changed from none to es5 in v2.0.0 <br> ### Valid Options <br> **"es5"** - Trailing commas where valid in ES5 (objects, arrays, etc.). No trailing commas in type parameters in TypeScript. <br> **"none"** - No trailing commas. <br> **"all"** - Trailing commas wherever possible (including function parameters and calls). To run, JavaScript code formatted this way needs an engine that supports ES2017 (Node.js 8+ or a modern browser) or downlevel compilation. This also enables trailing commas in type parameters in TypeScript (supported since TypeScript 2.7 released in January 2018).
+| 6 | useTabs | boolean | Setting indent_style in an .editorconfig file will configure Prettier’s tab usage, unless overridden. |
+
+## eslintrc
+Linting preferences for Javascript
+
+## Linting
+
+ - eslint
+ - prettier
+ - airbnb
+ - airbnb-typescript
+
+```shell
+npm lint
+```
+Lints your typescript
+
+```shell
+npm lint:fix
+```
+Lints your code and tries to fix any errors it finds.
+
+### Typescript
+
+```
+npm checkTs
+```
+
+Checks for TypeScript errors.
