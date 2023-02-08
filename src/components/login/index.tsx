@@ -7,7 +7,7 @@ interface IProps {
 const Login: FC<IProps> = ({ componentName }): ReactElement => {
   return (
     <div>
-      <h1>{componentName}</h1>
+      <h1 data-testid="login-heading">{componentName}</h1>
     </div>
   );
 };
